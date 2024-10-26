@@ -1,0 +1,5 @@
+﻿  Project0701.cpp
+E:\C\Project0701\Project0701.cpp(5,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(965): message : 参见“OVERFLOW”的前一个定义
+E:\C\Project0701\Project0701.cpp(58,2): warning C4091: “typedef ”: 没有声明变量时忽略“ArcNode”的左侧
+  Project0701.vcxproj -> E:\C\Project0701\Debug\Project0701.exe

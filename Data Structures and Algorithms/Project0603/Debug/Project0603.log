@@ -1,0 +1,4 @@
+﻿  Project0603.cpp
+D:\C\Project0603\Project0603.cpp(8,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(965): message : 参见“OVERFLOW”的前一个定义
+  Project0603.vcxproj -> D:\C\Project0603\Debug\Project0603.exe

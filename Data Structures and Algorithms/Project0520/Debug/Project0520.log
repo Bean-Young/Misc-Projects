@@ -1,0 +1,5 @@
+﻿  Project0520.cpp
+D:\C\Project0520\Project0520.cpp(5,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(965): message : 参见“OVERFLOW”的前一个定义
+D:\C\Project0520\Project0520.cpp(138,9): warning C4101: “n”: 未引用的局部变量
+  Project0520.vcxproj -> D:\C\Project0520\Debug\Project0520.exe
