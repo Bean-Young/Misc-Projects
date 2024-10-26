@@ -1,0 +1,26 @@
+StartChar: ogonek
+Encoding: 627 731 371
+GlifName: ogonek
+Width: 544
+VWidth: 0
+Flags: W
+HStem: -430 124<235.59 398.986>
+VStem: 100 124<-297.881 -104.82>
+AnchorPoint: "Bottom" 351 0 mark 0
+LayerCount: 4
+Back
+Fore
+SplineSet
+224 -216 m 0
+ 224 -267 254 -306 305 -306 c 0
+ 333.236842105 -306 360.5 -292.962962963 379 -281 c 1
+ 444 -391 l 1
+ 406 -413 360 -430 305 -430 c 0
+ 175 -430 100 -340 100 -237 c 0
+ 100 -81 252 6 374 52 c 1
+ 426 0 l 1
+ 343.133188043 -30.4408696985 224 -100.451958965 224 -216 c 0
+EndSplineSet
+Layer: 2
+Layer: 3
+EndChar

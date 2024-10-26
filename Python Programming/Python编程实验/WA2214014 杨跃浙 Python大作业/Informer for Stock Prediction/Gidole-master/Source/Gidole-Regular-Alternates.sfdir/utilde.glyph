@@ -1,0 +1,16 @@
+StartChar: utilde
+Encoding: 541 361 285
+GlifName: utilde
+Width: 1050
+VWidth: 0
+Flags: W
+HStem: -16 134<363.767 662.081> 0 21G<760 910> 1224 124<535.843 671.411> 1304 124<358.645 493.748>
+VStem: 120 150<214.423 1082> 212 606 760 150<0 112 217.927 1082>
+LayerCount: 4
+Back
+Fore
+Refer: 182 732 S 1 0 0 1 106 2 2
+Refer: 65 117 S 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+EndChar

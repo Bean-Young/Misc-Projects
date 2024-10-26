@@ -1,0 +1,15 @@
+StartChar: ydieresis.alt
+Encoding: 1114156 -1 545
+Width: 1010
+VWidth: 0
+Flags: W
+HStem: 1062 20G<60 223.941 786.79 950> 1247 188<232.891 395.109 614.891 777.109>
+VStem: 220 188<1259.89 1422.11> 602 188<1259.89 1422.11>
+LayerCount: 3
+Back
+Fore
+Refer: 754 776 N 1 0 0 1 100 0 2
+Refer: 543 -1 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+EndChar

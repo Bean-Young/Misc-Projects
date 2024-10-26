@@ -1,0 +1,17 @@
+StartChar: Zacute
+Encoding: 377 377 296
+GlifName: Z_acute
+Width: 530
+VWidth: 0
+Flags: W
+HStem: 0 70<137.564 470> 596 70<70 381.478> 736 120
+VStem: 52 74<76.0753 143.115> 224 153 394 74<522.847 590.482>
+LayerCount: 4
+Back
+Fore
+Refer: 411 769 N 1 0 0 1 174 190 2
+Refer: 38 90 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

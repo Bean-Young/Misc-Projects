@@ -1,0 +1,16 @@
+StartChar: uni0233
+Encoding: 563 563 511
+GlifName: uni0233
+Width: 418
+VWidth: 0
+Flags: W
+HStem: -189 66<94.5857 192.109> 544 56<93 343>
+VStem: 93 250<544 600>
+LayerCount: 4
+Back
+Fore
+Refer: 456 713 N 1 0 0 1 43 -12 2
+Refer: 70 121 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+EndChar

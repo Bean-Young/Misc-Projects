@@ -1,0 +1,33 @@
+StartChar: n
+Encoding: 110 110 57
+GlifName: n
+Width: 1100
+Flags: W
+HStem: 0 21G<160 310 800 950> 964 134<412.948 702.273> 1062 20G<160 310>
+VStem: 160 150<0 864.703 968 1082> 800 150<0 863.391>
+AnchorPoint: "Bottom" 550 0 basechar 0
+AnchorPoint: "Top" 575 1082 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+585 1098 m 0xd8
+ 707 1098 806 1043 867 966 c 0
+ 950 862 950 734 950 645 c 2
+ 950 0 l 1
+ 800 0 l 1
+ 800 645 l 2
+ 800 742 800 816 742 884 c 0
+ 702 931 637 964 555 964 c 0xd8
+ 473 964 408 931 368 884 c 0
+ 310 816 310 742 310 645 c 2
+ 310 0 l 1
+ 160 0 l 1
+ 160 1082 l 1
+ 310 1082 l 1xb8
+ 310 968 l 1
+ 382 1047 466 1098 585 1098 c 0xd8
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

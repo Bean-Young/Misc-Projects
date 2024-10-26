@@ -1,0 +1,30 @@
+StartChar: V
+Encoding: 86 86 25
+GlifName: V_
+Width: 556
+Flags: W
+HStem: -6 70<253.64 302.36> 646 20G<35 115.739 440.261 521>
+LayerCount: 4
+Back
+Fore
+SplineSet
+111 666 m 1
+ 238 130 l 2
+ 247 93 250 78 257 72 c 0
+ 264 66 270 64 278 64 c 0
+ 286 64 292 66 299 72 c 0
+ 306 78 309 93 318 130 c 2
+ 445 666 l 1
+ 521 666 l 1
+ 390 114 l 2
+ 375 52 371 41 351 22 c 0
+ 331 3 304 -6 278 -6 c 0
+ 252 -6 225 3 205 22 c 0
+ 185 41 181 52 166 114 c 2
+ 35 666 l 1
+ 111 666 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

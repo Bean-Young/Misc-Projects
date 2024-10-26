@@ -1,0 +1,36 @@
+StartChar: t
+Encoding: 116 116 65
+GlifName: t
+Width: 314
+Flags: W
+HStem: -6 66<142.923 265.282> 416 62<130 250>
+VStem: 60 70<72.3837 416 478 591>
+AnchorPoint: "DoubleTop" -65 0 basechar 0
+AnchorPoint: "Apos" 261 667 basechar 0
+AnchorPoint: "Top" -50 0 basechar 0
+AnchorPoint: "Center" -50 0 basechar 0
+AnchorPoint: "Bottom" 176 0 basechar 0
+LayerCount: 4
+Back
+Fore
+SplineSet
+130 170 m 2
+ 130 116 130 98 144 80 c 0
+ 154 68 169 60 191 60 c 0
+ 210 60 233 67 256 79 c 1
+ 286 20 l 1
+ 259 6 227 -6 191 -6 c 0
+ 147 -6 110 12 88 40 c 0
+ 60 75 60 113 60 170 c 2
+ 60 591 l 1
+ 130 591 l 1
+ 130 478 l 1
+ 250 478 l 5
+ 250 416 l 5
+ 130 416 l 1
+ 130 170 l 2
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

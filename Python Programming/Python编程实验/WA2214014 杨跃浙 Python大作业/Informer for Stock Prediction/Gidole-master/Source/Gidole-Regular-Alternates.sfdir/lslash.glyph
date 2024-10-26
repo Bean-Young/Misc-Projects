@@ -1,0 +1,32 @@
+StartChar: lslash
+Encoding: 619 322 363
+GlifName: lslash
+Width: 656
+VWidth: 0
+Flags: HW
+HStem: -16 134<429.938 498>
+VStem: 253 150<138.078 1496>
+LayerCount: 4
+Back
+Fore
+SplineSet
+253 1496 m 5
+ 403 1496 l 5
+ 403 223 l 6
+ 403 172 407 155 425 137 c 4
+ 441 121 462 117 477 117 c 4
+ 487 117 496 119 496 119 c 5
+ 521 -6 l 5
+ 499 -14 478 -16 458 -16 c 4
+ 382 -16 319.240599197 13.1490370048 282 73 c 4
+ 254 118 253 158 253 217 c 6
+ 253 1496 l 5
+117 542 m 5
+ 45 646 l 5
+ 539 990 l 5
+ 611 886 l 5
+ 117 542 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+EndChar

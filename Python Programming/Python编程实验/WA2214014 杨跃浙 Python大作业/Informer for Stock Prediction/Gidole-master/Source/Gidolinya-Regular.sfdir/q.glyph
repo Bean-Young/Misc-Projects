@@ -1,0 +1,42 @@
+StartChar: q
+Encoding: 113 113 64
+GlifName: q
+Width: 470
+VWidth: 0
+Flags: W
+HStem: -6 66<159.44 300.681> 418 66<159.986 304.552>
+VStem: 45 70<107.006 370.169> 345 70<-183 55 107.201 378.9>
+AnchorPoint: "DoubleTop" -10 0 basechar 0
+AnchorPoint: "Center" -10 0 basechar 0
+AnchorPoint: "Top" -10 0 basechar 0
+AnchorPoint: "Apos" 478 667 basechar 0
+AnchorPoint: "Bottom" 220 0 basechar 0
+LayerCount: 4
+Back
+Fore
+SplineSet
+232 418 m 0
+ 195 418 165 405 147 385 c 0
+ 115 349 115 298 115 241 c 0
+ 115 185 115 130 145 95 c 0
+ 163 74 192 60 230 60 c 0
+ 268 60 297 74 315 95 c 0
+ 345 130 345 185 345 259 c 0
+ 345 312 345 354 321 382 c 0
+ 302 405 268 418 232 418 c 0
+232 484 m 0
+ 278 484 336 470 375 424 c 0
+ 415 377 415 330 415 249 c 2
+ 415 -183 l 1
+ 345 -183 l 1
+ 345 55 l 1
+ 318 17 274 -6 225 -6 c 0
+ 166 -6 119 18 90 53 c 0
+ 45 107 45 173 45 241 c 0
+ 45 303 45 373 93 427 c 0
+ 124 461 172 484 232 484 c 0
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

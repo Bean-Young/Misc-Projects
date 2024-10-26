@@ -1,0 +1,17 @@
+StartChar: amacron
+Encoding: 257 257 206
+GlifName: amacron
+Width: 438
+VWidth: 0
+Flags: W
+HStem: -6 66<136.294 292.195> 229 62<137.559 318> 418 66<94.7784 285.804> 556 56<92 342>
+VStem: 35 70<88.4185 198.318> 92 250<556 612> 318 70<86.3906 229 291 385.321>
+LayerCount: 4
+Back
+Fore
+Refer: 456 713 N 1 0 0 1 42 0 2
+Refer: 47 97 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

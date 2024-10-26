@@ -1,0 +1,14 @@
+StartChar: quotesinglbase
+Encoding: 364 8218 108
+GlifName: quotesinglbase
+Width: 420
+Flags: W
+HStem: -220 424<165.391 205>
+VStem: 100 220<4.36516 184.891>
+LayerCount: 4
+Back
+Fore
+Refer: 85 8217 S 1 0 0 1 0 -1226 2
+Layer: 2
+Layer: 3
+EndChar

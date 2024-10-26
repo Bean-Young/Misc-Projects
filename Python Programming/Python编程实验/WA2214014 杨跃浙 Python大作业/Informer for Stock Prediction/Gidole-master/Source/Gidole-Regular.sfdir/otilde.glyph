@@ -1,0 +1,16 @@
+StartChar: otilde
+Encoding: 245 245 185
+GlifName: otilde
+Width: 1100
+VWidth: 0
+Flags: W
+HStem: -16 134<390.875 709.125> 964 134<390.875 709.125> 1222 124<536.537 717.301> 1282 124<382.699 563.463> 1396 20G<724.5 767.394>
+VStem: 125 150<243.661 838.339> 250 600 825 150<243.661 838.339>
+LayerCount: 3
+Back
+Fore
+Refer: 182 732 N 1 0 0 1 121 0 2
+Refer: 52 111 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+EndChar

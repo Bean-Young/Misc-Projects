@@ -1,0 +1,17 @@
+StartChar: Ygrave
+Encoding: 7922 7922 350
+GlifName: Y_grave
+Width: 510
+VWidth: 0
+Flags: W
+HStem: 0 21G<218 292> 646 20G<20 110.159 399.841 490> 736 120
+VStem: 171.28 153 218 74<0 322.774>
+LayerCount: 4
+Back
+Fore
+Refer: 410 768 N 1 0 0 1 121.28 190 2
+Refer: 37 89 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

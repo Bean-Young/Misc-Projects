@@ -1,0 +1,17 @@
+StartChar: uni0145
+Encoding: 325 325 257
+GlifName: uni0145
+Width: 554
+VWidth: 0
+Flags: W
+HStem: -229 166<253.688 272> 0 21G<70 144 410 484> 602 70<199.666 354.334>
+VStem: 70 74<0 544.881> 225 94<-147.943 -69.851> 410 74<0 544.881>
+LayerCount: 4
+Back
+Fore
+Refer: 434 806 N 1 0 0 1 175 0 2
+Refer: 33 78 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

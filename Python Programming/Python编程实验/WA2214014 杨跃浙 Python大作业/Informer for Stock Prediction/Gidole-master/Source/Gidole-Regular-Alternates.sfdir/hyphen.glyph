@@ -1,0 +1,20 @@
+StartChar: hyphen
+Encoding: 336 45 80
+GlifName: hyphen
+Width: 700
+Flags: W
+HStem: 474 134<100 600>
+VStem: 100 500<474 608>
+LayerCount: 4
+Back
+Fore
+SplineSet
+100 474 m 5
+ 100 608 l 5
+ 600 608 l 5
+ 600 474 l 5
+ 100 474 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+EndChar

@@ -1,0 +1,17 @@
+StartChar: uni1E92
+Encoding: 7826 7826 338
+GlifName: uni1E_92
+Width: 530
+VWidth: 0
+Flags: W
+HStem: -167 94<229.562 310.438> 0 70<137.564 470> 596 70<70 381.478>
+VStem: 52 74<76.0753 143.115> 223 94<-160.103 -79.8974> 394 74<522.847 590.482>
+LayerCount: 4
+Back
+Fore
+Refer: 433 803 N 1 0 0 1 173 0 2
+Refer: 38 90 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

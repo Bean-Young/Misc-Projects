@@ -1,0 +1,13 @@
+StartChar: arrowright
+Encoding: 669 8594 413
+GlifName: arrowright
+Width: 1140
+Flags: W
+HStem: 474 134<80 848>
+LayerCount: 4
+Back
+Fore
+Refer: 411 8592 N -1 0 0 -1 1140 1082 2
+Layer: 2
+Layer: 3
+EndChar

@@ -1,0 +1,36 @@
+StartChar: N
+Encoding: 78 78 33
+GlifName: N_
+Width: 554
+Flags: W
+HStem: 0 21G<70 144 410 484> 602 70<199.666 354.334>
+VStem: 70 74<0 544.881> 410 74<0 544.881>
+AnchorPoint: "DoubleTop" -26 0 basechar 0
+AnchorPoint: "Apos" -26 0 basechar 0
+AnchorPoint: "Center" -29 0 basechar 0
+AnchorPoint: "Bottom" 272 0 basechar 0
+AnchorPoint: "Top" 272 667 basechar 0
+LayerCount: 4
+Back
+Fore
+SplineSet
+277 672 m 4
+ 339 672 396 649 432 608 c 4
+ 484 549 484 477 484 387 c 6
+ 484 0 l 5
+ 410 0 l 5
+ 410 387 l 6
+ 410 468 410 524 376 562 c 4
+ 352 589 316 602 277 602 c 4
+ 238 602 202 589 178 562 c 4
+ 144 524 144 468 144 387 c 6
+ 144 0 l 5
+ 70 0 l 5
+ 70 387 l 6
+ 70 477 70 549 122 608 c 4
+ 158 649 215 672 277 672 c 4
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar
