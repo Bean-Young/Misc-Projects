@@ -14,9 +14,9 @@ If you need to use the code or reports contained within, you can refer to them, 
 ## ***Citation***
 
 ``````bibtex
-@misc{Miscellaneous-Projects,
+@misc{Misc-Projects,
 	title = {Miscellaneous Projects created by Yuezhe Yang},
 	author = {Yuezhe Yang},
 	year = {2024},
-	url = {[https://github.com/Bean-Young/US-Dataset/](https://github.com/Bean-Young/Miscellaneous-Projects)},
+	url = {[https://github.com/Bean-Young/US-Dataset/](https://github.com/Bean-Young/Misc-Projects)},
 }
