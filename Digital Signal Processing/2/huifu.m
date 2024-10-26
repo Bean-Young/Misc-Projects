@@ -1,0 +1,22 @@
+function fh=huifu(fz,fs)
+T=1/fs;dt=T/10;
+tp=0.1;t=-tp:dt:tp;
+n=-tp/T:tp/T;
+TMN=ones(length(n),1)* t-n'* T* ones(1,length(t));
+fh=fz * sinc(fs * TMN);
+k1=0:999;k2=-999:-1;
+m1=length(k1);m2=length(k2);
+w=[-2*pi*k2/m2,2*pi* k1/m1];
+FH=fh* exp(-j*[1 :length(fh)]'* w);
+figure;
+subplot(2,1,1);plot(t,fh,'g');
+st1=sprintf('由抽样频率f-s=%d',fs);
+st2='恢复后的信号';
+st=[st1,st2];
+title(st);xlabel('时间 t/s');
+axis([min(t),max(t),min(fh),max(fh)]);
+line([min(t) ,max(t)],[0 ,0]);
+f=[10 * fs* k2/m2,10 * fs * k1/m1];
+subplot(2,1,2);plot(f,abs(FH),'g');
+title('恢复后信号的频谱');xlabel('频率 f/Hz');
+axis([-100,100,0,max(abs(FH))+2]);

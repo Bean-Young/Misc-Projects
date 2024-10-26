@@ -1,0 +1,16 @@
+clc;clear all;close all;
+ws1=0.2*pi;ws2=0.8*pi;
+wp1=0.35*pi;wp2=0.65*pi;
+tr_width=min((wp1-ws1),(ws2-wp2));
+N=ceil(12*pi/tr_width)+1;
+wc1=(ws1+wp1)/2;wc2=(ws2+wp2)/2;
+wc=[wc1 wc2];
+h=fir1(N,wc/pi,blackman(N+1));
+[H,w]=freqz(h,1,1000);
+mag=abs(H);db=20*log10(mag/max(mag));
+subplot(2,1,1);
+plot(w/pi,db,'-b','LineWidth',1);
+xlabel('\omega/\pi');ylabel('幅度(dB)');axis([0,1,-150,10]);grid on;
+subplot(2,1,2);
+plot(w/pi,w,'-k','LineWidth',1);
+xlabel('\omega/\pi');ylabel('相位(度)');grid on;

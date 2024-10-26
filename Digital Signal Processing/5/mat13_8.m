@@ -1,0 +1,20 @@
+clc;clear all;close all;
+N=1000;fs=1000;
+fc=200;
+n=[0:N-1];t=n/fs;
+f1=50;f2=250;
+x=sin(2*pi*f1*t)+sin(2*pi*f2*t);
+h=fir1(40,fc*2/fs);
+yfft=fftfilt(h,x,256);
+nl=81:241;
+tl=t(nl);
+xl=x(nl);
+subplot(2,1,1);plot(tl,xl);grid on;
+title('输入信号');
+n2=nl-40/2;t2=t(n2);
+y2=yfft(n2);
+subplot(2,1,2);
+plot(t2,y2);
+title('输出信号');
+grid on;xlabel('时间/s');
+

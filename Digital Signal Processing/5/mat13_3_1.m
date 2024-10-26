@@ -1,0 +1,14 @@
+clc;clear all;close all;
+N=input('滤波器阶次 N=? ');
+wc=0.25;
+h1=fir1(N,wc,boxcar(N+1));
+h2=fir1(N,wc,hamming(N+1));
+M=128;
+H1=freqz(h1,1,M);
+H2=freqz(h2,1,M);
+f=0:0.5/M:0.5-0.5/M;
+plot(f,abs(H1),'--k','LineWidth',2);hold on;
+plot(f,abs(H2),'-','LineWidth',2);hold off;
+legend('矩形窗','海明窗');grid on;
+xlabel('\omega/(2\pi)');ylabel('|H(e^{j\omega})|');
+axis([0,0.5,0,1.2]);
