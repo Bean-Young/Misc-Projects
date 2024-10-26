@@ -1,0 +1,4 @@
+mov ax,0123
+mov bx,0003
+mov ax,bx
+add ax,bx

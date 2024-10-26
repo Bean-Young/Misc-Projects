@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C\\Project 02\\Bank with Waiting queue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{983176EC-A655-4C44-ABE2-D7A7A48DC5E1}|Bank with Waiting queue\\Bank with Waiting queue.vcxproj|E:\\C\\Project 02\\Bank with Waiting queue\\Bank with Waiting queue\\Bank with Waiting queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{983176EC-A655-4C44-ABE2-D7A7A48DC5E1}|Bank with Waiting queue\\Bank with Waiting queue.vcxproj|solutionrelative:Bank with Waiting queue\\Bank with Waiting queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bank with Waiting queue.cpp",
+              "DocumentMoniker": "E:\\C\\Project 02\\Bank with Waiting queue\\Bank with Waiting queue\\Bank with Waiting queue.cpp",
+              "RelativeDocumentMoniker": "Bank with Waiting queue\\Bank with Waiting queue.cpp",
+              "ToolTip": "E:\\C\\Project 02\\Bank with Waiting queue\\Bank with Waiting queue\\Bank with Waiting queue.cpp",
+              "RelativeToolTip": "Bank with Waiting queue\\Bank with Waiting queue.cpp",
+              "ViewState": "AQIAAF0BAAAAAAAAAAAAAG0BAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-22T03:00:54.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

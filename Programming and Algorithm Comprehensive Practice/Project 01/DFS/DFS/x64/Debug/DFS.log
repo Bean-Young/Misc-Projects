@@ -1,0 +1,3 @@
+﻿  DFS.cpp
+E:\C\Project 01\DFS\DFS\DFS.cpp(51): warning C4715: “Direction”: 不是所有的控件路径都返回值
+  DFS.vcxproj -> E:\C\Project 01\DFS\x64\Debug\DFS.exe

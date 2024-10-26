@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C\\Project 03\\Huffman decoder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{453EA0AF-45E5-4501-9539-39392FD56423}|Huffman decoder\\Huffman decoder.vcxproj|E:\\C\\Project 03\\Huffman decoder\\Huffman decoder\\Huffman decoder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{453EA0AF-45E5-4501-9539-39392FD56423}|Huffman decoder\\Huffman decoder.vcxproj|solutionrelative:Huffman decoder\\Huffman decoder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Huffman decoder.cpp",
+              "DocumentMoniker": "E:\\C\\Project 03\\Huffman decoder\\Huffman decoder\\Huffman decoder.cpp",
+              "RelativeDocumentMoniker": "Huffman decoder\\Huffman decoder.cpp",
+              "ToolTip": "E:\\C\\Project 03\\Huffman decoder\\Huffman decoder\\Huffman decoder.cpp",
+              "RelativeToolTip": "Huffman decoder\\Huffman decoder.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAhwCwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-25T04:54:23.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

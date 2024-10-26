@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>附近搜索城市</title>
+  <style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+  <script src="https://js.arcgis.com/4.23/"></script>
+</head>
+<body>
+  <div id="map"></div>
+  <button id="searchButton">搜索附近城市</button>
+  <script>
+    require([
+      "esri/Map",
+      "esri/views/MapView",
+      "esri/layers/FeatureLayer",
+      "esri/layers/GraphicsLayer",
+      "esri/Graphic",
+      "esri/geometry/Circle"
+    ], function(Map, MapView, FeatureLayer, GraphicsLayer, Graphic, Circle) {
+      var map = new Map({
+        basemap: "streets-navigation-vector"
+      });
+
+      var view = new MapView({
+        container: "map",
+        map: map,
+        center: [-95.7129, 37.0902], // 美国中心位置
+        zoom: 4,
+        ui: {
+          components: [] // 移除所有默认的UI组件
+        }
+      });
+
+      var graphicsLayer = new GraphicsLayer();
+      map.add(graphicsLayer);
+
+      var featureLayer = new FeatureLayer({
+        url: "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Major_Cities/FeatureServer/0"
+      });
+
+      document.getElementById("searchButton").addEventListener("click", function() {
+        var circle = new Circle({
+          center: view.center,
+          radius: 2000000 // 单位默认为米
+        });
+
+        featureLayer.queryFeatures({
+          geometry: circle,
+          spatialRelationship: "intersects",
+          outFields: ["*"],
+          returnGeometry: true
+        }).then(function(response) {
+          console.log("Found " + response.features.length + " features");
+          graphicsLayer.removeAll();
+          response.features.forEach(function(feature) {
+            var graphic = new Graphic({
+              geometry: feature.geometry,
+              symbol: {
+                type: "simple-marker",
+                color: "blue",
+                size: "8px",
+                outline: { color: "white", width: 1 }
+              }
+            });
+            graphicsLayer.add(graphic);
+          });
+        }).catch(function(error) {
+          console.error("Query failed: ", error);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
