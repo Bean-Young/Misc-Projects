@@ -1,0 +1,127 @@
+\documentclass{article}
+\usepackage{xeCJK}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{graphicx}
+\usepackage{titletoc}
+\usepackage{ctex} 
+\usepackage{placeins}
+\usepackage{listings}
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single
+}
+\usepackage[backend=biber, style=numeric, sorting=none]{biblatex}
+\usepackage{fancyvrb}
+\usepackage[hidelinks]{hyperref}
+\DeclareCiteCommand{\supercite}[\textsuperscript]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \usebibmacro{cite}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+
+\newcommand{\Title}[2]{%
+    \begin{center}
+        \huge {#1} \\[2ex]
+        \huge \textbf{#2}
+    \end{center}
+}
+\usepackage[
+    a4paper, 
+    top=3cm, 
+    bottom=3cm,
+    left=2.5cm, 
+    right=2.5cm
+]{geometry}
+
+\titlecontents{section}[1.5em]{\normalsize\heiti}{\thecontentslabel\quad}{}{\titlerule*[8pt]{.}\contentspage}
+\titlecontents{subsection}[3em]{\normalsize\songti}{\thecontentslabel\quad}{}{\titlerule*[8pt]{.}\contentspage}
+\renewcommand{\contentsname}{\makebox[\textwidth][c]{\textbf{\songti\zihao{-2} 目~~~~录}}}
+\addbibresource{references.bib}
+\renewcommand{\refname}{\textbf{\songti\zihao{-2} \makebox[\textwidth][c]{参考文献}}}
+\DefineBibliographyStrings{english}{%
+  bibliography = {参考文献},
+}
+\defbibheading{bibliography}[\bibname]{%
+  \section*{\centering\textbf{\songti\zihao{-2} #1}}%
+}
+\newcommand{\Department}[1]{%
+    \makebox[12cm][l]{\LARGE\textbf{~~~~~~学~~~~~院:} \underline{\makebox[7cm]{#1}}} \\[15pt]
+}
+
+\newcommand{\Major}[1]{%
+    \makebox[12cm][l]{\LARGE\textbf{~~~~~~专~~~~~业:} \underline{\makebox[7cm]{#1}}} \\[15pt]
+}
+
+\newcommand{\StudentOne}[1]{%
+    \makebox[12cm][l]{\LARGE\textbf{~~~~~~学~~~生1:} \underline{\makebox[7cm]{#1}}} \\[15pt]
+}
+
+\newcommand{\StudentTwo}[1]{%
+    \makebox[12cm][l]{\LARGE\textbf{~~~~~~学~~~生2:} \underline{\makebox[7cm]{#1}}} \\[15pt]
+}
+
+\newcommand{\Instructor}[1]{%
+    \makebox[12cm][l]{\LARGE\textbf{~~~~~~指导老师:} \underline{\makebox[7cm]{#1}}} \\[15pt]
+}
+
+\newcommand{\CourseCode}[1]{%
+    \makebox[12cm][l]{\LARGE\textbf{~~~~~~课程编号:} \underline{\makebox[7cm]{#1}}} \\[15pt]
+}
+
+\newcommand{\Credits}[1]{%
+    \makebox[12cm][l]{\LARGE\textbf{~~~~~~课程学分:} \underline{\makebox[7cm]{#1}}} \\[15pt]
+}
+
+\newcommand{\SubmissionDate}[1]{%
+    \makebox[12cm][l]{\LARGE\textbf{~~~~~~提交日期:} \underline{\makebox[7cm]{#1}}} \\[15pt]
+}
+
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{figure}[ht]
+    \centering
+    \vspace{-2cm}
+    \includegraphics[width=1\textwidth]{LOGO.png} 
+\end{figure}
+
+\Title{《数字信号处理课程设计》报告}{运用 MATLAB 的卷积演示系统}
+
+\vspace{20pt}
+
+
+\begin{center}
+    \Department{输入学院}
+    \Major{输入专业}
+    \StudentOne{输入学生1姓名学号}
+    \StudentTwo{输入学生2姓名学号}
+    \Instructor{输入导师姓名}
+    \CourseCode{输入课程编号}
+    \Credits{输入课程学分}
+    \SubmissionDate{输入提交日期}
+\end{center}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{第一章}
+\subsection{1.1 小节标题}
+\subsection{1.2 小节标题}
+\supercite{el2004matlab}
+\section{第二章}
+\subsection{2.1 小节标题}
+\subsection{2.2 小节标题}
+
+\newpage
+\printbibliography
+\end{document}
