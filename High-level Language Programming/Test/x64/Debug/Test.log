@@ -1,0 +1,5 @@
+﻿  Test.cpp
+D:\C\Test\Test.cpp(3,1): warning C4326: “main”的返回类型应为“int”而非“void”
+D:\C\Test\Test.cpp(4,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\C\Test\Test.cpp(4,9): message : 请考虑在格式字符串中使用“%zd”
+  Test.vcxproj -> D:\C\Test\x64\Debug\Test.exe
