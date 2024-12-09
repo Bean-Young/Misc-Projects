@@ -1,5 +1,0 @@
-﻿  Huffman encoder.cpp
-E:\C\Project 03\Huffman encoder\Huffman encoder\Huffman encoder.cpp(86,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-E:\C\Project 03\Huffman encoder\Huffman encoder\Huffman encoder.cpp(201,37): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-E:\C\Project 03\Huffman encoder\Huffman encoder\Huffman encoder.cpp(223,13): warning C4326: “main”的返回类型应为“int”而非“void”
-  Huffman encoder.vcxproj -> E:\C\Project 03\Huffman encoder\x64\Debug\Huffman encoder.exe
