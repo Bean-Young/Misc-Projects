@@ -1,6 +1,0 @@
-﻿  Project0527.cpp
-D:\C\Project0527\Project0527.cpp(5,1): warning C4005: “OVERFLOW”: 宏重定义
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(965): message : 参见“OVERFLOW”的前一个定义
-D:\C\Project0527\Project0527.cpp(201,38): warning C4091: “”: 没有声明变量时忽略“void”的左侧
-D:\C\Project0527\Project0527.cpp(83): warning C4715: “GetTop_LinkStack”: 不是所有的控件路径都返回值
-  Project0527.vcxproj -> D:\C\Project0527\Debug\Project0527.exe

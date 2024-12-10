@@ -1,3 +1,0 @@
-﻿  Test.cpp
-D:\C\Test\Test.cpp(11,1): warning C4326: “main”的返回类型应为“int”而非“void”
-  Test.vcxproj -> D:\C\Test\Debug\Test.exe
