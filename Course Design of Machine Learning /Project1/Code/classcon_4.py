@@ -1,41 +1,14 @@
 import numpy as np
 import pandas as pd
-from sklearn import tree
-from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.neural_network import MLPClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.naive_bayes import GaussianNB
-from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 from sklearn.utils import resample, shuffle
-
-
-# 训练不同模型
-def build_models(x, y):
-    models = {
-        "Decision Tree (ID3)": tree.DecisionTreeClassifier(criterion='entropy', max_depth=10, min_samples_leaf=50),
-        "Decision Tree (C4.5)": tree.DecisionTreeClassifier(criterion='entropy', max_depth=10),
-        "Random Forest": RandomForestClassifier(criterion='entropy', max_depth=10, n_estimators=100),
-        "MLP": MLPClassifier(hidden_layer_sizes=(50,), max_iter=500),
-        "KNN": KNeighborsClassifier(n_neighbors=1),
-        "Naive Bayes": GaussianNB(),
-        "AdaBoost": AdaBoostClassifier(n_estimators=100),
-        "Logistic Regression": LogisticRegression(solver='saga', penalty='l2', max_iter=10000)
-    }
-    
-    trained_models = {}
-    for name, model in models.items():
-        print(f"Training {name}...")
-        model.fit(x, y)
-        trained_models[name] = model
-
-    return trained_models
 
 # 评估模型
 def evaluate_model(model, test_x, test_y):
     pred_y = model.predict(test_x)
     accuracy = accuracy_score(test_y, pred_y)
-    precision = precision_score(test_y, pred_y, average='binary')  # 根据数据类型调整
+    precision = precision_score(test_y, pred_y, average='binary')  
     recall = recall_score(test_y, pred_y, average='binary')
     f1 = f1_score(test_y, pred_y, average='binary')
     auc = roc_auc_score(test_y, pred_y)
@@ -64,17 +37,23 @@ if __name__ == '__main__':
 
     # 选择相关性绝对值 >= 0.01 的特征
     important_feature = corr_target[np.abs(corr_target) >= 0.01].index.tolist()
-
     train = train[important_feature]
     test = test[important_feature]
     train_x, train_y = train.iloc[:, :-1], train.iloc[:, -1]
     test_x, test_y = test.iloc[:, :-1], test.iloc[:, -1]
 
-    # 训练所有模型
-    models = build_models(train_x, train_y)
+    # 定义 MLP 变体
+    models = {
+        "MLP Baseline": MLPClassifier(hidden_layer_sizes=(100,), activation='relu', solver='adam', learning_rate_init=0.001, max_iter=200, random_state=0),
+        "MLP More Layers": MLPClassifier(hidden_layer_sizes=(100, 50), activation='relu', solver='adam', learning_rate_init=0.001, max_iter=200, random_state=0),
+        "MLP Higher LR": MLPClassifier(hidden_layer_sizes=(100,), activation='relu', solver='adam', learning_rate_init=0.005, max_iter=200, random_state=0),
+        "MLP More Iterations": MLPClassifier(hidden_layer_sizes=(100,), activation='relu', solver='adam', learning_rate_init=0.001, max_iter=500, random_state=0)
+    }
 
-    # 依次测试每个模型并输出结果
+    # 训练并评估每个模型
     for name, model in models.items():
+        print(f"\nTraining {name}...")
+        model.fit(train_x, train_y)
         accuracy, precision, recall, f1, auc = evaluate_model(model, test_x, test_y)
         print(f"\n{name} Results:")
         print(f'Accuracy  %.4f' % accuracy)
