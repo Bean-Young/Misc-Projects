@@ -1,5 +1,5 @@
 # Miscellaneous Projects
-This project was created by ***Yuezhe Yang*** to store **some of the small projects I have worked on, including but not limited to course design**.
+This project was created by [***Yuezhe Yang***](https://bean-young.github.io) to store **some of the small projects I have worked on, including but not limited to course design**.
 
 ## ***Abstact***
 
