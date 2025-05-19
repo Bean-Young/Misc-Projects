@@ -1,0 +1,10 @@
+{
+    "products": [
+        {"name": "Smartphone", "price": 699},
+        {"name": "Laptop", "price": 999},
+        {"name": "T - shirt", "price": 19},
+        {"name": "Jeans", "price": 49},
+        {"name": "Blender", "price": 59},
+        {"name": "Coffee Maker", "price": 89}
+]
+}
