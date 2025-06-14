@@ -1,0 +1,17 @@
+model_name: "HAN"
+batch_size: 128
+learning_rate: 1e-4
+num_epochs: 50
+max_seq_len: 256
+embedding_dim: 256
+hidden_dim: 128
+num_classes: 2
+nhead: 16
+trans_layers: 4
+dropout: 0.5
+device: "cuda"
+dataset_name: "PHEME"
+dataset_path: "./NLP-Class/Project1/pheme_data/"
+save_path: "./NLP-Class/Project1/checkpoints/"
+log_path: "./NLP-Class/Project1/logs/"
+result_file: "./NLP-Class/Project1/logs/metrics.txt"
