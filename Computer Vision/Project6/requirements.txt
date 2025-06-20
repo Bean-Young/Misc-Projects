@@ -1,0 +1,16 @@
+numpy
+torch
+PyYAML
+orjson
+tqdm
+setuptools
+opencv-python
+typing
+Pillow==10.3.0
+scikit-image
+torchvision
+matplotlib
+scipy
+pycocotools
+thop
+wandb
