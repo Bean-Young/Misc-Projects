@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>提交评价</title>
+</head>
+<body>
+    <h1>提交教师评价</h1>
+    <form id="evalForm">
+        <label>选择教师:
+            <select name="teacher_id" required>
+                {% for teacher in teachers %}
+                <option value="{{ teacher.teacher_id }}">{{ teacher.name }}</option>
+                {% endfor %}
+            </select>
+        </label><br>
+        
+        <label>评价内容:<br>
+            <textarea name="content" rows="5" cols="50" required></textarea>
+        </label><br>
+        
+        <label>评分:
+            <select name="rating" required>
+                <option value="very_good">很好</option>
+                <option value="good">好</option>
+                <option value="medium">中等</option>
+                <option value="poor">差</option>
+                <option value="very_poor">很差</option>
+            </select>
+        </label><br>
+        
+        <button type="submit">提交评价</button>
+    </form>
+    
+    <script>
+        document.getElementById('evalForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const response = await fetch('/submit_evaluation', {
+                method: 'POST',
+                body: formData
+            });
+            const result = await response.json();
+            alert(`评价提交成功! ID: ${result.evaluation_id}`);
+        });
+    </script>
+</body>
+</html>

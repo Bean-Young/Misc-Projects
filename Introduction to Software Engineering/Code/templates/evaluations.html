@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>教师评价展示</title>
+</head>
+<body>
+    <h1>精选教师评价</h1>
+    <div id="evaluations-container">
+        {% for eval in evaluations %}
+        <div class="evaluation">
+            <h3>{{ eval.teacher_id }} - 评分: {{ eval.rating }}</h3>
+            <p>{{ eval.content }}</p>
+            {% if eval.materials %}
+            <div class="materials">
+                <h4>证明材料:</h4>
+                <ul>
+                    {% for material in eval.materials %}
+                    <li><a href="{{ material }}">材料{{ loop.index }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+        {% else %}
+        <p>暂无精选评价</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
