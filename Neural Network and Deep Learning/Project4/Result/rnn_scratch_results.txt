@@ -1,0 +1,10 @@
+Model: RNN from scratch
+Perplexity: 1.0
+Prediction for 'time traveller': time travelleryou can show black is white by argument said filby
+Prediction for 'traveller': travelleryou can show black is white by argument said filby
+
+Model: RNN from scratch
+Perplexity: 1.2
+Prediction for 'time traveller': time traveller for so it will be convenient to speak of himwas e
+Prediction for 'traveller': traveller but now you baginttonive dove aureery cing hain i
+

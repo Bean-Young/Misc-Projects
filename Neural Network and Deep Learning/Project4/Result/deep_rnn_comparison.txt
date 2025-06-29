@@ -1,0 +1,10 @@
+Comparison result for LSTM model:
+LSTM Training Time: 31.85 seconds
+LSTM Final Perplexity: 1.02
+LSTM Prediction for 'time traveller': time travelleryou can show black is white by argument said filby
+
+Comparison result for GRU model:
+GRU Training Time: 29.83 seconds
+GRU Final Perplexity: 1.02
+GRU Prediction for 'time traveller': time traveller with a slight accession ofcheerfulness really thi
+

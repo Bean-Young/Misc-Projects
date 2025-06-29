@@ -1,0 +1,5 @@
+Model: LSTM from scratch
+Perplexity: 1.1
+Prediction for 'time traveller': time traveller for so it will be convenient to speak of himwas e
+Prediction for 'traveller': travelleryou can show black is white by argument said filby
+

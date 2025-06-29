@@ -1,0 +1,5 @@
+Model: 2-layer RNN
+Perplexity: 1.0
+Prediction for 'time traveller': time traveller with a slight accession ofcheerfulness really thi
+Prediction for 'traveller': travelleryou can show black is white by argument said filby
+

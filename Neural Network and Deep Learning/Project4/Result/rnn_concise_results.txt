@@ -1,0 +1,9 @@
+Model: RNN with PyTorch API
+Perplexity: 1.3
+Prediction for 'time traveller': time travellerit s against reason said ffourtheep thay thing se 
+Prediction for 'traveller': travelleryproce dive aiourdey noubht yes ald the bege time 
+
+Model: RNN with PyTorch API
+Perplexity: 1.4
+Prediction for 'time traveller': time traveller hele in his tious and plong sind fouber of exed t
+Prediction for 'traveller': traveller hilendiof our yon save frow you trow hl wald hove
