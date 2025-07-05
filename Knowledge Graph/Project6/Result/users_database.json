@@ -1,0 +1,37 @@
+{
+  "user1": {
+    "action": 5,
+    "comedy": 3,
+    "drama": 4,
+    "romance": 2,
+    "horror": 1
+  },
+  "user2": {
+    "action": 2,
+    "comedy": 5,
+    "drama": 3,
+    "romance": 4,
+    "horror": 1
+  },
+  "user3": {
+    "action": 4,
+    "comedy": 2,
+    "drama": 5,
+    "romance": 3,
+    "horror": 4
+  },
+  "user4": {
+    "action": 1,
+    "comedy": 4,
+    "drama": 3,
+    "romance": 5,
+    "horror": 2
+  },
+  "user5": {
+    "action": 3,
+    "comedy": 3,
+    "drama": 4,
+    "romance": 2,
+    "horror": 5
+  }
+}

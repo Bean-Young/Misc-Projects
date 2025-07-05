@@ -1,0 +1,128 @@
+{
+  "The Avengers": {
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "year": 2012,
+    "rating": 8.0
+  },
+  "The Godfather": {
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "year": 1972,
+    "rating": 9.2
+  },
+  "Titanic": {
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "year": 1997,
+    "rating": 7.8
+  },
+  "The Shawshank Redemption": {
+    "genres": [
+      "drama"
+    ],
+    "year": 1994,
+    "rating": 9.3
+  },
+  "The Shining": {
+    "genres": [
+      "horror",
+      "drama"
+    ],
+    "year": 1980,
+    "rating": 8.4
+  },
+  "Inception": {
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "year": 2010,
+    "rating": 8.8
+  },
+  "La La Land": {
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
+    ],
+    "year": 2016,
+    "rating": 8.0
+  },
+  "Get Out": {
+    "genres": [
+      "horror",
+      "mystery"
+    ],
+    "year": 2017,
+    "rating": 7.7
+  },
+  "The Dark Knight": {
+    "genres": [
+      "action",
+      "crime",
+      "drama"
+    ],
+    "year": 2008,
+    "rating": 9.0
+  },
+  "Pulp Fiction": {
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "year": 1994,
+    "rating": 8.9
+  },
+  "Forrest Gump": {
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "year": 1994,
+    "rating": 8.8
+  },
+  "The Matrix": {
+    "genres": [
+      "action",
+      "sci-fi"
+    ],
+    "year": 1999,
+    "rating": 8.7
+  },
+  "Parasite": {
+    "genres": [
+      "comedy",
+      "drama",
+      "thriller"
+    ],
+    "year": 2019,
+    "rating": 8.6
+  },
+  "Interstellar": {
+    "genres": [
+      "adventure",
+      "drama",
+      "sci-fi"
+    ],
+    "year": 2014,
+    "rating": 8.6
+  },
+  "Joker": {
+    "genres": [
+      "crime",
+      "drama",
+      "thriller"
+    ],
+    "year": 2019,
+    "rating": 8.4
+  }
+}

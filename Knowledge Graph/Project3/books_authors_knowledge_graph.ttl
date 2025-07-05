@@ -1,0 +1,50 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+
+ex:Author a rdfs:Class .
+
+ex:Book a rdfs:Class .
+
+ex:1984 a ex:Book ;
+    ex:writtenBy ex:George_Orwell ;
+    schema1:name "1984"@en,
+        "《1984》"@zh .
+
+ex:Animal_Farm a ex:Book ;
+    ex:writtenBy ex:George_Orwell ;
+    schema1:name "Animal Farm"@en,
+        "《动物农场》"@zh .
+
+ex:Harry_Potter_and_the_Chamber_of_Secrets a ex:Book ;
+    ex:writtenBy ex:J.K._Rowling ;
+    schema1:name "Harry Potter and the Chamber of Secrets"@en,
+        "《哈利・波特与密室》"@zh .
+
+ex:Harry_Potter_and_the_Philosophers_Stone a ex:Book ;
+    ex:writtenBy ex:J.K._Rowling ;
+    schema1:name "Harry Potter and the Philosophers Stone"@en,
+        "《哈利・波特与魔法石》"@zh .
+
+ex:One_Hundred_Years_of_Solitude a ex:Book ;
+    ex:writtenBy ex:Gabriel_Garcia_Marquez ;
+    schema1:name "One Hundred Years of Solitude"@en,
+        "《百年孤独》"@zh .
+
+ex:writtenBy a rdf:Property ;
+    rdfs:domain ex:Book ;
+    rdfs:range ex:Author .
+
+ex:Gabriel_Garcia_Marquez a ex:Author ;
+    schema1:name "Gabriel Garcia Marquez"@en,
+        "加夫列尔・加西亚・马尔克斯"@zh .
+
+ex:George_Orwell a ex:Author ;
+    schema1:name "George Orwell"@en,
+        "乔治・奥威尔"@zh .
+
+ex:J.K._Rowling a ex:Author ;
+    schema1:name "J.K. Rowling"@en,
+        "J.K. 罗琳"@zh .
+

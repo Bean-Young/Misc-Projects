@@ -1,0 +1,5 @@
+新闻,实际价格变动,预测价格变动,正确
+The company reported a 25% increase in earnings this quarter.,1,-1,False
+Data breach incident compromises customer information.,-1,-1,True
+Industry-wide price war negatively impacts profit margins.,-1,-1,True
+There is a scandal involving the CFO that might impact the stock negatively.,-1,-1,True
