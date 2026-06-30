@@ -11,8 +11,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
+import glob
 import io
 import os
+import subprocess
 import sys
 from shutil import rmtree
 
@@ -87,14 +89,15 @@ class UploadCommand(Command):
             pass
 
         self.status("Building Source and Wheel (universal) distribution…")
-        os.system("{0} setup.py sdist bdist_wheel --universal".format(sys.executable))
+        subprocess.run([sys.executable, "setup.py", "sdist", "bdist_wheel", "--universal"], check=True)
 
         self.status("Uploading the package to PyPI via Twine…")
-        os.system("twine upload dist/*")
+        distributions = glob.glob(os.path.join("dist", "*"))
+        subprocess.run(["twine", "upload", *distributions], check=True)
 
         self.status("Pushing git tags…")
-        os.system("git tag v{0}".format(about["__version__"]))
-        os.system("git push --tags")
+        subprocess.run(["git", "tag", "v{0}".format(about["__version__"])], check=True)
+        subprocess.run(["git", "push", "--tags"], check=True)
 
         sys.exit()
 
