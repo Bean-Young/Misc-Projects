@@ -18,7 +18,7 @@ The primary target users of this project are equipment manufacturers and large h
 
 There are several competitors in the PET image reconstruction space, including other research teams, medical equipment manufacturers, and research institutions. However, we believe that through our unique methods and technologies, we can maintain a competitive edge in this field. We are committed to contributing to the advancement of healthcare by improving the quality and efficiency of PET imaging, facilitating early disease detection and treatment.
 
-![Demo](/Supporting%20Materials/Demo.jpg)
+![Demo](Supporting%20Materials/Demo.jpg)
 
 ## ***Achievements***
 
@@ -72,49 +72,49 @@ There are several competitors in the PET image reconstruction space, including o
   **Certificate Number**: 2024-TZB14-AHU049
   <details>
     <summary>Certificate</summary>
-    <img src="/Supporting%20Materials/14th%20%22Challenge%20Cup%22%20Entrepreneurship%20Competition%20for%20College%20Students.png" alt="14th Challenge Cup Bronze Award" width="640">
+    <img src="Supporting%20Materials/14th%20%22Challenge%20Cup%22%20Entrepreneurship%20Competition%20for%20College%20Students.png" alt="14th Challenge Cup Bronze Award" width="640">
   </details>
 
 - **August 2024**: Our work, *DeepPET: An Intelligent Brain PET Device with Low Radiation and High Imaging Quality*, won the **Gold Award** in the Grand Final of the 2024 Anhui Provincial College Students Innovation Competition (Higher Education Main Track).<br>
   **Certificate Number**: 202410019
   <details>
     <summary>Certificate</summary>
-    <img src="/Supporting%20Materials/Anhui%20Provincial%20College%20Students%20Innovation%20Competition.png" alt="2024 Anhui Provincial College Students Innovation Competition Gold Award" width="640">
+    <img src="Supporting%20Materials/Anhui%20Provincial%20College%20Students%20Innovation%20Competition.png" alt="2024 Anhui Provincial College Students Innovation Competition Gold Award" width="640">
   </details>
 
 - **July 2024**: Our invention patent, *PET Image Reconstruction Method Based on Prior Images and 3D Perception Method for PET Images*, entered substantive examination.<br>
   **Notice Serial Number**: 2024073000576600
   <details>
     <summary>Certificate</summary>
-    <img src="/Supporting%20Materials/Invention%20Patent%20Substantive%20Examination.png" alt="Invention Patent Substantive Examination" width="640">
+    <img src="Supporting%20Materials/Invention%20Patent%20Substantive%20Examination.png" alt="Invention Patent Substantive Examination" width="640">
   </details>
 
 - **July 2024**: Our work, *DeepPET: An Intelligent Brain PET Device with Low Radiation and High Imaging Quality*, won the **Gold Award** in the 2024 Anhui University Innovation Competition for College Students.<br>
   **Certificate Number**: HLW-2024090574
   <details>
     <summary>Certificate</summary>
-    <img src="/Supporting%20Materials/Anhui%20University%20Innovation%20Competition.png" alt="2024 Anhui University Innovation Competition Gold Award" width="640">
+    <img src="Supporting%20Materials/Anhui%20University%20Innovation%20Competition.png" alt="2024 Anhui University Innovation Competition Gold Award" width="640">
   </details>
 
 - **July 2024**: Our project, *Learning-Based Brain PET Image Reconstruction Method and Interpretability Study*, was selected for the 2024 National Undergraduate Innovation and Entrepreneurship Training Program.<br>
-  **Project Number**: 202410357131 ([Mid-term Progress Report Link](/Supporting%20Materials/Learning-Based%20Brain%20PET%20Image%20Reconstruction%20Method%20and%20Interpretability%20Study-Mid-term.pdf))
+  **Project Number**: 202410357131 ([Mid-term Progress Report Link](Supporting%20Materials/Learning-Based%20Brain%20PET%20Image%20Reconstruction%20Method%20and%20Interpretability%20Study-Mid-term.pdf))
   <details>
     <summary>Certificate</summary>
-    <img src="/Supporting%20Materials/Undergraduate%20Innovation%20and%20Entrepreneurship%20Training%20Program(National).png" alt="Undergraduate Innovation and Entrepreneurship Training Program, National Level" width="640">
+    <img src="Supporting%20Materials/Undergraduate%20Innovation%20and%20Entrepreneurship%20Training%20Program(National).png" alt="Undergraduate Innovation and Entrepreneurship Training Program, National Level" width="640">
   </details>
 
 - **April 2024**: Our invention patent, *PET Image Reconstruction Method Based on Prior Images and 3D Perception Method for PET Images*, was successfully filed.<br>
-  **Patent Application Number**: 202410439671.1 ([Patent Link](/Supporting%20Materials/PET%20Image%20Reconstruction%20Method%20Based%20on%20Prior%20Images%20and%203D%20Perception%20Method%20for%20PET%20Images.pdf))
+  **Patent Application Number**: 202410439671.1 ([Patent Link](Supporting%20Materials/PET%20Image%20Reconstruction%20Method%20Based%20on%20Prior%20Images%20and%203D%20Perception%20Method%20for%20PET%20Images.pdf))
   <details>
     <summary>Certificate</summary>
-    <img src="/Supporting%20Materials/Invention%20Patent%20Filed.png" alt="Invention Patent Filed" width="640">
+    <img src="Supporting%20Materials/Invention%20Patent%20Filed.png" alt="Invention Patent Filed" width="640">
   </details>
 
 - **January 2024**: Our project, *Learning-Based Brain PET Image Reconstruction Method and Interpretability Study*, successfully secured a university-level grant under the 2024 Undergraduate Innovation and Entrepreneurship Training Program.<br>
-  **Project Number**: X20240759 ([Application Link](/Supporting%20Materials/Learning-Based%20Brain%20PET%20Image%20Reconstruction%20Method%20and%20Interpretability%20Study-Application.pdf))
+  **Project Number**: X20240759 ([Application Link](Supporting%20Materials/Learning-Based%20Brain%20PET%20Image%20Reconstruction%20Method%20and%20Interpretability%20Study-Application.pdf))
   <details>
     <summary>Certificate</summary>
-    <img src="/Supporting%20Materials/Undergraduate%20Innovation%20and%20Entrepreneurship%20Training%20Program(School).png" alt="Undergraduate Innovation and Entrepreneurship Training Program, School Level" width="640">
+    <img src="Supporting%20Materials/Undergraduate%20Innovation%20and%20Entrepreneurship%20Training%20Program(School).png" alt="Undergraduate Innovation and Entrepreneurship Training Program, School Level" width="640">
   </details>
 
 ## ***Citation***
@@ -124,6 +124,6 @@ There are several competitors in the PET image reconstruction space, including o
   title = {DeepPET: An Intelligent Brain PET Device with Low Radiation and High Imaging Quality},
   author = {Yuezhe Yang},
   year = {2024},
-  url = {https://github.com/Bean-Young/PET-Project},
+  url = {https://github.com/Bean-Young/Misc-Projects/tree/main/PET-Project},
 }
 ```
