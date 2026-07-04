@@ -12,6 +12,8 @@ The repository contains coursework and project materials from programming, algor
 | --- | --- |
 | `PET-Project/` | DeepPET project page materials, demo image, certificates, reports, and citation information. |
 | `Computer Vision/` | Computer vision coursework and YOLOv3 project code. |
+| `Intelligent System Design and Application/` | Intelligent system design coursework, code, report, slides, and demo video. |
+| `Artificial Intelligence Ethics and Safety/` | AI ethics and safety course project report. |
 | `Python Programming/` | Python class exercises, coursework, Docker environment, and reports. |
 | `Machine Learning/`, `Neural Network and Deep Learning/`, `Natural Language Processing/` | ML, deep learning, and NLP assignments and experiments. |
 | `Data Structures and Algorithms/`, `Programming and Algorithm Comprehensive Practice/` | Algorithm practice code and reports. |
