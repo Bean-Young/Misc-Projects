@@ -1,3 +1,4 @@
+from ast import literal_eval
 import numpy as np
 import matplotlib.pyplot as plt
 import re
@@ -52,7 +53,7 @@ def load_dataset():
             line='{'+line[:-12:]+'}'
             line=re.sub(' ',',',line)
             #print(line) (test)
-            dic_data=eval(line)
+            dic_data=literal_eval(line)
             #Determine if all ten dimensions have values
             if sum(dic_data.keys())==55:
                 X.append(list(dic_data.values()))

@@ -1,3 +1,4 @@
+from ast import literal_eval
 import re
 import numpy as np
 import time
@@ -125,7 +126,7 @@ def read_file():
             line='{'+line[:-12:]+'}'
             line=re.sub(' ',',',line)
             #print(line) (test)
-            dic_data=eval(line)
+            dic_data=literal_eval(line)
             #Determine if all ten dimensions have values
             if sum(dic_data.keys())==55:
                 X.append(list(dic_data.values()))

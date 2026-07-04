@@ -1,4 +1,4 @@
 while True:
-    guess=eval(input())
+    guess = int(input(), 0)
     if guess==0x452//2:
         break

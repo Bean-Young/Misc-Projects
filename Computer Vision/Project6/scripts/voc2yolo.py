@@ -1,7 +1,7 @@
-import os
 import shutil
 import xml.etree.ElementTree as ET
 from os import getcwd
+from pathlib import Path
 
 sets = [("2012", "train"), ("2012", "val"), ("2007", "train"), ("2007", "val"), ("2007", "test")]
 
@@ -65,5 +65,13 @@ for year, image_set in sets:
             shutil.copyfile(f"./VOCdevkit/VOC{year}/labels/{image_id}.txt", f"./labels/train/{image_id}.txt")
     list_file.close()
 
-os.system("cat 2007_train.txt 2007_val.txt 2012_train.txt 2012_val.txt > train.txt")
-os.system("cat 2007_test.txt > test.txt")
+def merge_split_files(output_path, input_paths):
+    with open(output_path, "w") as output_file:
+        for input_path in input_paths:
+            path = Path(input_path)
+            if path.exists():
+                output_file.write(path.read_text())
+
+
+merge_split_files("train.txt", ["2007_train.txt", "2007_val.txt", "2012_train.txt", "2012_val.txt"])
+merge_split_files("test.txt", ["2007_test.txt"])

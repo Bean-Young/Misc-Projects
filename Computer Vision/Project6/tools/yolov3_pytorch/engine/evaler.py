@@ -11,6 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
+from ast import literal_eval
 import json
 from pathlib import Path
 from typing import Dict
@@ -121,7 +122,7 @@ class Evaler:
             self.config["VAL"]["DATASET"]["AUGMENT"],
             self.config["VAL"]["CONF_THRESH"],
             self.config["VAL"]["IOU_THRESH"],
-            eval(self.config["VAL"]["IOUV"]),
+            literal_eval(self.config["VAL"]["IOUV"]),
             self.config["VAL"]["GT_JSON_PATH"],
             self.config["VAL"]["PRED_JSON_PATH"],
             self.config["VAL"]["VERBOSE"],

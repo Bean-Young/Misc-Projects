@@ -11,6 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
+from ast import literal_eval
 import math
 import os
 import random
@@ -139,7 +140,7 @@ class Trainer:
         if self.config["TRAIN"]["OPTIM"]["NAME"] == "adam":
             optimizer = optim.Adam(self.model.parameters(),
                                    self.config["TRAIN"]["OPTIM"]["LR"],
-                                   eval(self.config["TRAIN"]["OPTIM"]["BETAS"]),
+                                   literal_eval(self.config["TRAIN"]["OPTIM"]["BETAS"]),
                                    weight_decay=self.config["TRAIN"]["OPTIM"]["WEIGHT_DECAY"])
         elif self.config["TRAIN"]["OPTIM"]["NAME"] == "sgd":
             optimizer = optim.SGD(self.model.parameters(),
@@ -290,7 +291,7 @@ class Trainer:
                 self.config["VAL"]["DATASET"]["AUGMENT"],
                 self.config["VAL"]["CONF_THRESH"],
                 self.config["VAL"]["IOU_THRESH"],
-                eval(self.config["VAL"]["IOUV"]),
+                literal_eval(self.config["VAL"]["IOUV"]),
                 self.config["VAL"]["GT_JSON_PATH"],
                 self.config["VAL"]["PRED_JSON_PATH"],
                 self.config["VAL"]["VERBOSE"],

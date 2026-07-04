@@ -1,3 +1,5 @@
+from ast import literal_eval
+
 def is_prime(n):
     if n < 2:
         return False
@@ -45,7 +47,7 @@ def test7():
     print("Number of occurrences of letter o:",counto)
     print("Number of occurrences of letter u:",countu)
 def test8():
-    scores=eval(input("Please enter scores for students\n"))
+    scores=literal_eval(input("Please enter scores for students\n"))
     scores=list(filter(lambda score:score>=60,scores))
     print(scores)
 def test9():
