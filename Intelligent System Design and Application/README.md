@@ -1,10 +1,14 @@
-# Intelligent System Design and Application
+# Intelligent System Design and Application Comprehensive Practice
 
-Original course folder: `2025智能实践课程作业 WA2214014 杨跃浙`.
+## Course Information
 
-## Contents
+| Field | Information |
+| --- | --- |
+| Chinese name | 智能系统设计与应用综合实践 |
+| English name | Intelligent System Design and Application Comprehensive Practice |
 
-- `Code/`: source code for the diagnostic model and ultrasound novel-view synthesis components.
-- `Comprehensive Practice Report.pdf`: comprehensive practice report.
-- `Intelligent System Design and Application.pptx`: course presentation slides.
-- `Demo Video.mp4`: demonstration video.
+## Grade Record
+
+| Component | Chinese title | English title | Credits | Score | Grade Point |
+| --- | --- | --- | ---: | ---: | ---: |
+| Comprehensive Practice | 智能系统设计与应用综合实践 | Intelligent System Design and Application Comprehensive Practice | 1.5 | 86 | 3.6 |

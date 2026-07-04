@@ -1,0 +1,14 @@
+# Experiments in Numerical Analysis
+
+## Course Information
+
+| Field | Information |
+| --- | --- |
+| Chinese name | 数值分析实验 |
+| English name | Experiments in Numerical Analysis |
+
+## Grade Record
+
+| Component | Chinese title | English title | Credits | Score | Grade Point |
+| --- | --- | --- | ---: | ---: | ---: |
+| Experiment | 数值分析实验 | Experiments in Numerical Analysis | 0.5 | 99 | 4.9 |

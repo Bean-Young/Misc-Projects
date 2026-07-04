@@ -1,7 +1,14 @@
 # Artificial Intelligence Ethics and Safety
 
-Original course file: `人工智能伦理与安全课程大作业.pdf`.
+## Course Information
 
-## Contents
+| Field | Information |
+| --- | --- |
+| Chinese name | 人工智能伦理与安全 |
+| English name | Artificial Intelligence Ethics and Safety |
 
-- `Course Project.pdf`: final course project report.
+## Grade Record
+
+| Component | Chinese title | English title | Credits | Score | Grade Point |
+| --- | --- | --- | ---: | ---: | ---: |
+| Theory | 人工智能伦理与安全 | Ethics and Security of Artificial Intelligence | 1 | 84 | 3.4 |
