@@ -17,4 +17,6 @@
 
 ## Resource Notes
 
-This folder contains the first Computer Vision coursework report and related code resources.
+This folder contains the first Computer Vision coursework report in PDF format and related code resources.
+
+- `Computer Vision Course Design Report 1 - Yuezhe Yang.pdf`: coursework report.

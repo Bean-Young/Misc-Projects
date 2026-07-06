@@ -17,4 +17,6 @@
 
 ## Resource Notes
 
-This folder contains the second Computer Vision coursework report, presentation slides, and related code resources.
+This folder contains the second Computer Vision coursework report in PDF format, presentation slides, and related code resources.
+
+- `Computer Vision Course Design Report 2 - Yuezhe Yang.pdf`: coursework report.
