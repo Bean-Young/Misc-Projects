@@ -1,3 +1,3 @@
-# Course Design of Machine Learning
+# Course Project of Machine Learning
 
-Course design materials for the Machine Learning course. The theory, experiment, and course design grade records are kept together in [`../Machine Learning/README.md`](../Machine%20Learning/README.md).
+Course project materials for the Machine Learning course. The theory, experiment, and course project grade records are kept together in [`../Machine Learning/README.md`](../Machine%20Learning/README.md).
