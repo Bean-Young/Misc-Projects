@@ -1,12 +1,5 @@
 # Python Programming
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | Python编程 |
-| English name | Python Programming |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

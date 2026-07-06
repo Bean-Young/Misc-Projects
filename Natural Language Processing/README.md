@@ -1,12 +1,5 @@
 # Natural Language Processing
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 自然语言处理 |
-| English name | Natural Language Processing |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

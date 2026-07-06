@@ -1,12 +1,5 @@
 # Computer Vision Coursework 2
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 计算机视觉 |
-| English name | Image Processing and Computer Vision |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

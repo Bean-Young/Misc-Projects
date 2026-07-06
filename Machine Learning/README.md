@@ -1,12 +1,5 @@
 # Machine Learning
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 机器学习 |
-| English name | Machine Learning |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

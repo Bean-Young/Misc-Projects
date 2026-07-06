@@ -1,12 +1,5 @@
 # Data Structures and Algorithms
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 数据结构与算法 |
-| English name | Data Structures and Algorithms |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

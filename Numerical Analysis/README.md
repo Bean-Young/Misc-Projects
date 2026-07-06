@@ -1,12 +1,5 @@
 # Experiments in Numerical Analysis
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 数值分析实验 |
-| English name | Experiments in Numerical Analysis |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

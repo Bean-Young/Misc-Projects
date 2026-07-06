@@ -1,12 +1,5 @@
 # Programming and Algorithm Comprehensive Practice
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 程序设计与算法综合训练 |
-| English name | Programming and Algorithm Comprehensive Practice |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

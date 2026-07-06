@@ -1,12 +1,5 @@
 # Principle of Intelligence Control
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 智能控制理论 |
-| English name | Principle of Intelligence Control |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

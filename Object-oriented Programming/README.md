@@ -1,12 +1,5 @@
 # Object-oriented Programming
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 面向对象程序设计 |
-| English name | Object-oriented Programming |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

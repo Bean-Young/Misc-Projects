@@ -1,12 +1,5 @@
 # Introduction to Software Engineering
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 软件工程概论 |
-| English name | Introduction to Software Engineering |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

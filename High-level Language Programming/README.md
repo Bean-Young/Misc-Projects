@@ -1,12 +1,5 @@
 # High-level Language Programming
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 高级语言程序设计 |
-| English name | High-level Language Programming |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

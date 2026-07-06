@@ -1,12 +1,5 @@
 # Professional English
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 专业英语 |
-| English name | Professional English |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

@@ -1,12 +1,5 @@
 # Assembly Language and Computer Organization
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 汇编语言与计算机组成原理 |
-| English name | Assembly Language and Computer Organization |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |

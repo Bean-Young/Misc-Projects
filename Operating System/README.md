@@ -1,12 +1,5 @@
 # Operating Systems
 
-## Course Information
-
-| Field | Information |
-| --- | --- |
-| Chinese name | 操作系统 |
-| English name | Operating Systems |
-
 ## Grade Record
 
 | Component | Chinese title | English title | Credits | Score | Grade Point |
