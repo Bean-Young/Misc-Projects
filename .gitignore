@@ -6,6 +6,23 @@ __pycache__/
 .ruff_cache/
 .ipynb_checkpoints/
 
+# Report source files and raw tabular/array data
+*.doc
+*.docx
+*.wps
+*.xls
+*.xlsx
+*.csv
+*.npy
+*.npz
+*.mat
+*.h5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+
 # Local environments and secrets
 .env
 .env.*
