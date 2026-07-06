@@ -1,7 +1,5 @@
 # Natural Language Processing
 
-## Grade Record
-
 | Component | Chinese title | English title | Credits | Score | Grade Point |
 | --- | --- | --- | ---: | ---: | ---: |
 | Theory | 自然语言处理 | Natural Language Processing | 2 | 93 | 4.3 |

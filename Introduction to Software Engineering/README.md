@@ -1,7 +1,5 @@
 # Introduction to Software Engineering
 
-## Grade Record
-
 | Component | Chinese title | English title | Credits | Score | Grade Point |
 | --- | --- | --- | ---: | ---: | ---: |
 | Theory | 软件工程概论 | Introduction to Software Engineering | 2 | 85 | 3.5 |

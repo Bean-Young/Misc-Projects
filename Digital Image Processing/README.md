@@ -1,7 +1,5 @@
 # Digital Image Processing (Bilingual)
 
-## Grade Record
-
 | Component | Chinese title | English title | Credits | Score | Grade Point |
 | --- | --- | --- | ---: | ---: | ---: |
 | Theory | 数字图像处理（双语） | Digital Image Processing (Bilingual) | 2 | 95 | 4.5 |

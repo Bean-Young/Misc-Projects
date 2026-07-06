@@ -1,7 +1,5 @@
 # Machine Learning
 
-## Grade Record
-
 | Component | Chinese title | English title | Credits | Score | Grade Point |
 | --- | --- | --- | ---: | ---: | ---: |
 | Theory | 机器学习 | Machine Learning | 2 | 98 | 4.8 |

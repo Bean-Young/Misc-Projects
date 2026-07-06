@@ -1,7 +1,5 @@
 # Digital Signal Processing
 
-## Grade Record
-
 | Component | Chinese title | English title | Credits | Score | Grade Point |
 | --- | --- | --- | ---: | ---: | ---: |
 | Theory | 数字信号处理 | Digital Signal Processing | 2 | 89 | 3.9 |

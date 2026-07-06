@@ -1,7 +1,5 @@
 # Operating Systems
 
-## Grade Record
-
 | Component | Chinese title | English title | Credits | Score | Grade Point |
 | --- | --- | --- | ---: | ---: | ---: |
 | Theory | 操作系统 | Operating Systems | 2 | 91 | 4.1 |

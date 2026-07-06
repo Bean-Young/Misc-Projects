@@ -1,7 +1,5 @@
 # High-level Language Programming
 
-## Grade Record
-
 | Component | Chinese title | English title | Credits | Score | Grade Point |
 | --- | --- | --- | ---: | ---: | ---: |
 | Theory | 高级语言程序设计 | High-level Language Programming | 3 | 97 | 4.7 |

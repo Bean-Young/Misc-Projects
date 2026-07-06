@@ -1,7 +1,5 @@
 # Python Programming
 
-## Grade Record
-
 | Component | Chinese title | English title | Credits | Score | Grade Point |
 | --- | --- | --- | ---: | ---: | ---: |
 | Theory | Python编程 | Python Programming | 2 | 97 | 4.7 |

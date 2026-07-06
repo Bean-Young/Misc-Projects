@@ -1,7 +1,5 @@
 # Data Structures and Algorithms
 
-## Grade Record
-
 | Component | Chinese title | English title | Credits | Score | Grade Point |
 | --- | --- | --- | ---: | ---: | ---: |
 | Theory | 数据结构与算法 | Data Structures and Algorithms | 4 | 95 | 4.5 |
