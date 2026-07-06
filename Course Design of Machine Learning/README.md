@@ -1,5 +1,3 @@
-# Course Project of Machine Learning
+# Course Design of Machine Learning
 
-| Component | Chinese title | English title | Credits | Score | Grade Point |
-| --- | --- | --- | ---: | ---: | ---: |
-| Course Project | 机器学习课程设计 | Course Project of Machine Learning | 2 | 87 | 3.7 |
+Course design materials for the Machine Learning course. The theory, experiment, and course design grade records are kept together in [`../Machine Learning/README.md`](../Machine%20Learning/README.md).
