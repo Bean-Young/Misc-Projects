@@ -35,7 +35,7 @@ There are several competitors in the PET image reconstruction space, including o
   **Certificate Number**: 2025-CQCAH2509-KJCX063
   <details>
     <summary>Certificate</summary>
-    <img src="assets/achievements/2025-youth-innovation-bronze.jpg" alt="2025 Anhui Youth Innovation and Entrepreneurship Competition Bronze Award" width="640">
+    <img src="https://bean-young.github.io/document/anhui-youth-innovation-entrepreneurship-bronze-award.png" alt="2025 Anhui Youth Innovation and Entrepreneurship Competition Bronze Award" width="640">
   </details>
 
 - **July 2025**: Our work, *DeepPET: An Intelligent Brain PET Device with Low Radiation and High Imaging Quality*, won the **Gold Award** in the 2025 Anhui University Innovation Competition for College Students.<br>
